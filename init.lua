@@ -43,3 +43,40 @@ local node_def = {
     groups = {oddly_breakable_by_hand=3}
 }
 minetest.register_node("ubcv_campus_objects:light_pole_1",node_def)
+
+-- Below are temporary for visualizing on server
+
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "allfaces_optional",
+	new_style_leaves = 1,
+    tiles = {"snowberry_fall.png"}
+}
+minetest.register_node("ubcv_campus_objects:snowberry_fall",node_def)
+
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "allfaces_optional",
+	new_style_leaves = 1,
+    tiles = {"snowberry_spring.png"},
+    groups = {oddly_breakable_by_hand=3}
+}
+minetest.register_node("ubcv_campus_objects:snowberry_spring",node_def)
+
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "allfaces_optional",
+	new_style_leaves = 1,
+    tiles = {"snowberry_summer.png"},
+    groups = {oddly_breakable_by_hand=3}
+}
+minetest.register_node("ubcv_campus_objects:snowberry_summer",node_def)
+
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "allfaces_optional",
+	new_style_leaves = 1,
+    tiles = {"snowberry_winter.png"},
+    groups = {oddly_breakable_by_hand=3}
+}
+minetest.register_node("ubcv_campus_objects:snowberry_winter",node_def)
