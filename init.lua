@@ -120,6 +120,24 @@ local node_def = {
 }
 minetest.register_node("ubcv_campus_objects:emergency_phone",node_def)
 
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "mesh",
+    mesh = "reconcilation_pole.obj",
+    tiles = {{name = "totem_base.png"}, {name = "totem_black.png"}, {
+        name = "totem_white.png"}, {name = "totem_extra.png"}, 
+        {name = "totem_extra_2.png"}, {name = "totem_extra_3.png"}}
+}
+minetest.register_node("ubcv_campus_objects:reconcilation_pole",node_def)
+
+local node_def = {
+    sunlight_propagates = true,
+    drawtype = "mesh",
+    mesh = "waste_bin.obj",
+    tiles = {"waste_bin_texture.png"}
+}
+minetest.register_node("ubcv_campus_objects:waste_bin",node_def)
+
 -- Below are temporary for visualizing on server
 
 local node_def = {
