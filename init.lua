@@ -56,7 +56,7 @@ local node_def = {
     sunlight_propagates = false,
     drawtype = "mesh",
     mesh = "banner_v3.obj",
-    tiles = {"pole_base.png", "pole_base_v3.png", "pole_light.png", = "banner.png"}
+    tiles = {"pole_base.png", "pole_base_v3.png", "pole_light.png", "banner.png"}
 }
 minetest.register_node("ubcv_campus_objects:light_pole_3",node_def)
 
